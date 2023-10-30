@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_coco_template_1698678181621-pr-trigger-input-set
+  identifier: Build_coco_template_1698678181621prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_coco_template_1698678181621
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
